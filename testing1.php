@@ -2,4 +2,6 @@
 
 echo "testing";
 
+echo "belajar";
+
 ?>
