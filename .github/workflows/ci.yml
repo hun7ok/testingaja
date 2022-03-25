@@ -17,3 +17,4 @@ jobs:
       run: |
         git status
         ls -lah
+        echo "testing"
