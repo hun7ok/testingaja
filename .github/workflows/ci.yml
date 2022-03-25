@@ -1,0 +1,19 @@
+name: Run Testing
+
+on:  
+  pull_request:
+    branches:
+      - master
+
+jobs:  
+  test:
+    name: Pull Request
+    runs-on: ubuntu-latest
+    steps:
+    - name: Check Out The Repo
+      uses: actions/checkout@v2
+
+    - name: Perintah Linux
+      run: |
+        git status
+        ls -lah
