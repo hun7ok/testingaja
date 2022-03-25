@@ -1,0 +1,20 @@
+name: Push Main
+
+on:  
+  push:
+    branches:
+      - main
+
+jobs:  
+  test:
+    name: Push Data
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check Out The Repo
+        uses: actions/checkout@v2
+
+      - name: Perintah Linux
+        run: |
+          git status
+          ls -lah
+          echo "production"
