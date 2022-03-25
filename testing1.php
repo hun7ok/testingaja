@@ -6,4 +6,6 @@ echo "belajar";
 
 echo "belajar php dasar";
 
+echo "pinokio";
+
 ?>
