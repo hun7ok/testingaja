@@ -4,4 +4,6 @@ echo "testing";
 
 echo "belajar";
 
+echo "belajar php dasar";
+
 ?>
